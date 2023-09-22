@@ -1,0 +1,97 @@
+.product{
+    width: 30%;
+    height: 35vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243,242,242);
+    border-radius: 10px 10px 0 0 ;
+    overflow: hidden;
+}
+.p-browser{
+    height: 20px;
+    background-color: rgb(243,242,242);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    z-index: 2;
+}
+.p-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #fff;
+}
+.p-img{
+    width: 100%;
+    transition: all 10s ease;
+}
+.product:hover .p-img{
+    transform: translateY(-100%);
+}
+
+
+.customModalStyle h2{
+    border-bottom: 1px solid #59b256;
+    margin-bottom: 8px;
+    display: flex;
+    padding: 8px 35px 8px 16px;
+    background-color: #59b256;
+    border-radius: 10px;
+    font-size: 23px
+}
+.customModalStyle h4{
+
+    margin: 8px 0 ;
+}
+.customModalStyle div{
+    border: 2px solid #59b256;
+    padding: 16px;
+    margin: 8px;
+}
+.customModalStyle button{
+    top: 30px!important;
+    right: 28px!important;
+
+}
+.customModalStyleDark{
+    background-color: #333333!important;
+    color: #ffffff;
+}
+.customModalStyleDark h2{
+    border-bottom: 1px solid #59b256;
+    margin-bottom: 8px;
+    display: flex;
+    padding: 8px 35px 8px 16px;
+    background-color: #59b256;
+    border-radius: 10px;
+    font-size: 23px
+}
+.customModalStyleDark h4{
+
+    margin: 8px 0 ;
+}
+.customModalStyleDark div{
+    border: 2px solid #59b256;
+    padding: 16px;
+    margin: 8px;
+}
+.customModalStyleDark button{
+    top: 30px!important;
+    right: 28px!important;
+
+}
+
+@media screen and (max-width: 480px){
+    .product{
+        width: 40%;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 768px)and (min-width: 480px){
+    .product{
+        width: 40%;
+        height: 20vh;
+    }
+}

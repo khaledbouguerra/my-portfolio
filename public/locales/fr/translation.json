@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "intro": "Hello, Je m'appelle",
+    "desc": "Passionné par le développement Web de pointe, en particulier avec l'écosystème javascript tel que",
+    "descHighlighted": "NodeJS , Angular 2+ and ReactJS."
+  },
+  "aboutMe": {
+    "title": "À propos de moi",
+    "sub": "Ingénieur en informatique, diplômé de l'institut supérieur des sciences appliquées et technologiques de sousse en 2016.",
+    "desc_1": "Avec 8 ans d'expérience en développement web dans différents domaines: e-learning, e-commerce, industrie automobile, médias et banking.",
+    "desc_2": "Mon objectif principal est de créer des applications Web de pointe en gardant l'esprit craftsmanship et qualité."
+  },
+  "products": {
+    "title": "Créer & inspirer",
+    "desc": "Voici quelques projets sur lesquels j'ai travaillé."
+  },
+  "contact": {
+    "title": "Discutons de votre projet",
+    "descTitle": "Quelle est votre histoire?",
+    "desc": "N'hésitez pas à me contacter. Toujours disponible pour freelancing si le bon projet se présente.",
+    "name": "Nom",
+    "subject": "Sujet",
+    "email": "E-mail",
+    "message": "Message",
+    "submit": "Envoyer",
+    "emailSent":  "Email envoyé!"
+  }
+}

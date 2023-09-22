@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "intro": "Hello, My name is",
+    "desc": "I'm passionate about cutting-edge, web development, specifically with the javascript ecosystem such as",
+    "descHighlighted": "NodeJS , Angular 2+ and ReactJS."
+  },
+  "aboutMe": {
+    "title": "About me",
+    "sub": "Software engineer, graduated from the higher institute of applied sciences and technology of sousse in 2016.",
+    "desc_1": "With 8 years of experience in web development in different domains: e-learning,e-commerce, automotive industry,media and banking.",
+    "desc_2": "My main focus is building cutting-edge web applications with quality and craftsmanship in mind."
+  },
+  "products": {
+    "title": "Create & inspire",
+    "desc": "Here are a few past projects I've worked on."
+  },
+  "contact": {
+    "title": "Let's discuss your project",
+    "descTitle": "What’s your story?",
+    "desc": "Get in touch. Always available for freelancing if the right project comes along.",
+    "name": "Name",
+    "subject": "Subject",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "emailSent":  "Email sent, Thank you!"
+  }
+}
