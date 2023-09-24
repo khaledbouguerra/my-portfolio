@@ -11,8 +11,7 @@ import {useTranslation} from "react-i18next";
 export default function Contact() {
     const PK=process.env.REACT_APP_EMAIL_PUBLIC_KEY;
     const TEMPLATE_ID=process.env.REACT_APP_EMAIL_TEMPLATE_ID;
-    console.log('pk ' , PK);
-    console.log('TI ', TEMPLATE_ID)
+    const SERVICE_ID=process.env.REACT_APP_EMAIL_SERVICE_ID
     const { t } = useTranslation();
     const formRef=useRef();
     const [done,setDone]=useState(false);
@@ -25,7 +24,7 @@ export default function Contact() {
         e.preventDefault();
         if(formRef.current.user_name.value && formRef.current.user_subject.value && formRef.current.user_email.value && formRef.current.message.value ){
             setSendEmailLoading(true);
-            emailjs.sendForm('service_42gzte2', 'template_8rs7v4i', formRef.current, 'ro71KPyQL5fzNlwf1')
+            emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PK)
                 .then((result) => {
                     console.log(result.text);
                     setDone(true);
